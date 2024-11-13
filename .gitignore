@@ -1,0 +1,44 @@
+# Already in your gitignore:
+node_modules
+dist
+dist-ssr
+*.local
+logs
+*.log
+
+# Additional recommendations:
+# Build directories
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Bun specific
+bun.lockb
+
+# Testing
+coverage/
+
+# Misc
+.cache/
+.temp/
+.vercel/
+
+# If using TypeScript
+*.tsbuildinfo
+
+# If using PWA
+public/sw.js
+public/workbox-*.js
+
+# IDE specific (you have some but here's more)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
